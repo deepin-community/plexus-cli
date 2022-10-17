@@ -1,0 +1,65 @@
+plexus-cli (1.2-7) unstable; urgency=medium
+
+  * Team upload.
+  * Depend on libplexus-container-default1.5-java instead of
+    libplexus-container-default-java and libplexus-containers-java
+  * Depend on libplexus-utils2-java intead of libplexus-utils2-java
+  * Standards-Version updated to 4.1.0
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Tue, 29 Aug 2017 22:46:26 +0200
+
+plexus-cli (1.2-6) unstable; urgency=low
+
+  * Team upload.
+  * Moved the package to Git
+  * Standards-Version updated to 4.0.0
+  * Switch to debhelper level 10
+  * Build with the DH sequencer instead of CDBS
+  * Added the missing build dependency on junit4
+  * Updated the Homepage field
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Fri, 21 Jul 2017 11:22:07 +0200
+
+plexus-cli (1.2-5) unstable; urgency=low
+
+  * Replace libgoogle-collection-java with libguava-java.
+  * Bump debhelper dependency and compat to 9.
+
+ -- tony mancill <tmancill@debian.org>  Sun, 06 Oct 2013 20:05:45 -0700
+
+plexus-cli (1.2-4) unstable; urgency=low
+
+  * Team upload.
+  * Add build-dep for libgoogle-collections-java (Closes: #724144)
+  * Bump Standards-Version to 3.9.4.
+  * Update Vcs fields in debian/control to be canonical.
+  * Add myself to Uploaders (was empty).
+  * Update debian/copyright.
+
+ -- tony mancill <tmancill@debian.org>  Sun, 22 Sep 2013 21:01:42 -0700
+
+plexus-cli (1.2-3) unstable; urgency=low
+
+  * Team upload.
+  * Switch to source format 3.0.
+  * Remove Paul from Uploaders list - no Uploader left.
+  * Update Standards-Version: 3.9.1.
+  * Switch to debhelper level 7.
+  * Use Maven to build the package.
+  * Add a documentation package.
+  * Convert debian/copyright to dep5 format.
+
+ -- Torsten Werner <twerner@debian.org>  Mon, 29 Aug 2011 00:02:35 +0200
+
+plexus-cli (1.2-2) unstable; urgency=low
+
+  * Upload to unstable.
+
+ -- Torsten Werner <twerner@debian.org>  Fri, 14 Aug 2009 15:32:16 +0200
+
+plexus-cli (1.2-1) experimental; urgency=low
+  
+  * Initial release. (Closes: #535066).
+
+ -- Ludovic Claude <ludovic.claude@laposte.net>  Mon, 18 May 2009 19:15:53 +0000
+

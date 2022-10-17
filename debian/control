@@ -1,0 +1,48 @@
+Source: plexus-cli
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: tony mancill <tmancill@debian.org>
+Build-Depends:
+ debhelper (>= 10),
+ default-jdk,
+ default-jdk-doc,
+ junit4,
+ libcommons-cli-java,
+ libguava-java,
+ libmaven-javadoc-plugin-java,
+ libplexus-container-default1.5-java,
+ libplexus-utils2-java,
+ libplexus-utils2-java-doc,
+ maven-debian-helper (>= 1.4)
+Standards-Version: 4.1.0
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/plexus-cli.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/plexus-cli.git
+Homepage: https://codehaus-plexus.github.io/plexus-cli/
+
+Package: libplexus-cli-java
+Architecture: all
+Depends: ${maven:Depends}, ${misc:Depends}
+Recommends: ${maven:OptionalDepends}
+Suggests: libplexus-cli-java-doc
+Description: Easily create CLIs with Plexus components
+ The Plexus project provides a full software stack for creating and
+ executing software projects. Based on the Plexus container, the applications
+ can utilise component-oriented programming to build modular, reusable
+ components that can easily be assembled and reused.
+ .
+ This package provides a facility for creating CLIs with Plexus.
+
+Package: libplexus-cli-java-doc
+Architecture: all
+Section: doc
+Depends: ${maven:DocDepends}, ${misc:Depends}
+Recommends: ${maven:DocOptionalDepends}
+Suggests: libplexus-cli-java
+Description: Documentation for Plexus CLI
+ The Plexus project provides a full software stack for creating and
+ executing software projects. Based on the Plexus container, the applications
+ can utilise component-oriented programming to build modular, reusable
+ components that can easily be assembled and reused.
+ .
+ This package contains the API documentation of libplexus-cli-java.

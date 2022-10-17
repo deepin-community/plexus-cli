@@ -1,0 +1,3 @@
+version=3
+http://svn.codehaus.org/plexus/plexus-components/tags/ \
+  plexus-cli-(.*)/ debian debian/orig-tar.sh
